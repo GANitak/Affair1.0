@@ -1,5 +1,5 @@
 <template>
-  <img alt="Face" src="./assets/Face.jpeg" />
+  <img alt="Face" src="./assets/IMGanit.svg" />
   <Home msg="Welcome to GANitak's portal" />
 <body>
     <h1>Here is the 1st STAGE 1.0</h1>
