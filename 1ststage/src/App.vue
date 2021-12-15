@@ -1,13 +1,33 @@
 <template>
-  <img alt="Face" src="./assets/Face.jpeg" width="350px" height="450px" />
+  <img alt="Face" src="./assets/Face.jpeg" />
   <Home msg="Welcome to GANitak's portal" />
+<body>
+    <h1>Here is the 1st STAGE 1.0</h1>
+    <title>Affair 1.☻</title>
+<h2>What's up humans 🤠?!</h2>
+<h2>Music is happening 🎻</h2>
+<!-- <a href="https://ganitak.io" target="_blank" rel="link2site" -->
+        <!-- > <button @click="gotoGANitak()">GANitak.io</button> ⤖ landing app</a>. -->
+    <h3>Eco🍀system</h3>
+Earth, Species🕊, Love&#128149;
+
+
+<input v-model="message" placeholder="call me back" />
+<p>Message is: {{ message }}</p>
+
+
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+
 </template>
 
 <script>
 import Home from "./components/Home.vue";
+//import GANitak from "./components/GANitak.vue";
 
 export default {
-  name: "App",
+  name: "App", 
   components: {
     Home,
   },

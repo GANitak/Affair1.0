@@ -1,5 +1,7 @@
 <template>
-  <div class="hello">
+  <div class="homePage">
+      <button @click="gotoGANitak()">GANitak.io</button>
+
     <h1>{{ msg }}</h1>
     <p>
       For a guide <br/>
@@ -29,30 +31,21 @@
   </div>
 </template>
 
-**<template>
-  <div id="app">
-    <button @click="gotoGoogle()">Google</button>
-  </div>
-</template>
 
 <script>
 export default {
-  name: "app",
-  methods: {
-    gotoGoogle() {
-      window.open("https://www.google.com");
-    },
-  },
-};
-</script>**
-
-<script>
-export default {
-  name: "HelloWorld",
+  name: "HomePage",
   props: {
     msg: String,
   },
+
+  methods: {
+    gotoGANitak() {
+      window.open("https://www.ganitak.io/");
+    },
+  },
 };
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
